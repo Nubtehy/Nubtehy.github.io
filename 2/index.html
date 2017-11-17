@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Lovelyshops.com</title>
+    <!-- Main Meta information-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Get html5shiv if this is IE lower or equal to 9--><!--[if lte IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  </head>
+  <body>
+    <main class="container">
+      <section class="form__wrapper">
+        <form>
+          <div class="form__item">
+            <div class="row">
+              <div class="col-md-6 flex__container">
+                <div class="select-wrapper">
+                  <select name="cityarrival[1]" class="form-control">
+                    <option value="0">Select country</option>
+                    <option value="1">Belgium</option>
+                    <option value="2">Andorra</option>
+                    <option value="3">Curacao</option>
+                  </select>
+                </div>
+                <input type="text" placeholder="Zip code, Address" name="arrivaladdress[1]" class="form-control">
+              </div>
+              <div class="col-md-6 flex__container">
+                <div class="select-wrapper">
+                  <select name="departure[1]" class="form-control">
+                    <option value="0">Select country</option>
+                    <option value="1">Belgium</option>
+                    <option value="2">Andorra</option>
+                    <option value="3">Curacao</option>
+                  </select>
+                </div>
+                <input type="text" placeholder="Zip code, Address" name="departureaddress[1]" class="form-control">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2">
+                <input checked type="checkbox" name="itemtype[1]" class="toggle-one">
+                <input type="hidden" name="item[]" value="1">
+              </div>
+              <div class="Parcel col-md-10">
+                <div class="flex__container">
+                  <div class="form__item__group">
+                    <label class="control-label">Weight:</label>
+                    <div class="input-group">
+                      <input name="parcelWeight[1]" class="form-control"><span class="input-group-addon">Kg</span>
+                    </div>
+                  </div>
+                  <div class="form__item__group">
+                    <label class="control-label">Lenght:</label>
+                    <div class="input-group">
+                      <input name="parcelLenght[1]" class="form-control"><span class="input-group-addon">Cm</span>
+                    </div>
+                  </div>
+                  <div class="form__item__group">
+                    <label class="control-label">Width:</label>
+                    <div class="input-group">
+                      <input name="parcelWidth[1]" class="form-control"><span class="input-group-addon">Cm</span>
+                    </div>
+                  </div>
+                  <div class="form__item__group">
+                    <label class="control-label">Height:</label>
+                    <div class="input-group">
+                      <input name="parcelHeight[1]" class="form-control"><span class="input-group-addon">Cm</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-9 Pallet">
+                <div class="flex__container">
+                  <div class="form__item__group">
+                    <label class="control-label">Number of pallets:</label>
+                    <div class="input-group">
+                      <input name="palletNumber[1]" class="form-control"><span class="input-group-addon">Pcs</span>
+                    </div>
+                  </div>
+                  <div class="form__item__group">
+                    <label class="control-label">Height:</label>
+                    <div class="input-group">
+                      <input name="palletHeight[1]" class="form-control"><span class="input-group-addon">Cm</span>
+                    </div>
+                  </div>
+                  <div class="form__item__group">
+                    <label class="control-label">Weight for pallet:</label>
+                    <div class="input-group">
+                      <input name="palletWeight[1]" class="form-control"><span class="input-group-addon">Kg</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="button__action">
+          <button type="button" class="btn btn-primary removebutton">- Remove</button>
+          <button type="button" class="btn btn-primary addbutton">+ Add parcell or Pallet</button>
+          <button type="button" class="btn btn-danger sendbutton">Quote & Book</button>
+        </div>
+      </section>
+    </main>
+    <link href="./css/vendor.bundle.css" rel="stylesheet">
+    <link href="css/bundle.css" rel="stylesheet">
+    <script src="js/vendor.bundle.js"></script>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
