@@ -1,0 +1,1 @@
+$("document").ready(function(){$(".toggle").click(function(){$(".header__menu ul").stop().slideToggle("slow")}),$(".form__callback button").on("click",function(o){o.preventDefault();var e=$("form").serializeArray();console.log(e)})});
