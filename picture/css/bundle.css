@@ -1,0 +1,1 @@
+*{transition:color .2s ease;box-sizing:border-box}.picture{background:#80cdc6;width:560px;height:447px;margin:0 auto;position:relative;overflow:hidden}img{max-width:100%}.absolute{position:absolute}.water{bottom:0;left:0;z-index:2}.ship{width:20%;left:15px;bottom:38px;z-index:1}.world{left:0;bottom:15px}.clouds{right:0;width:65%;top:-6px}
